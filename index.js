@@ -15,14 +15,14 @@ Se XP for maior ou igual a 10.001 = Radiante
 Ao final deve se exibir uma mensagem:
 "O Herói de nome **{nome}** está no nível de **{nivel}**" */
 
-//entrada de dados
-
-
-
+//Declaração de Variveis
 let nickName = 'Luiz';
 let xp = 5000;
 let rank = 'Seu rank é ';
+
 console.log("Usuario cadastrado com sucesso!\n");
+
+//estrutura de repetição
 for (let i=1; i<=5;i++){
     console.log(i)
 }
@@ -30,6 +30,7 @@ console.log("5 dias depois");
 console.log("\nParabens " + nickName + " você chegou a marca dos 5k de XP!!");
 console.log("\nVamos descobrir qual rank você chegou!!\n");
 
+//estrutura de decisão
 if (xp <= 1000){
     console.log(rank + "Ferro");
 } else if(xp >=1001 &&  xp <=2000){
